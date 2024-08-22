@@ -1,0 +1,78 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar {
+    background-color: #fff;;
+}
+
+.nav .nav-link .active {
+    background-color:#ffeedd;
+    color: #e39648;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+#about h2,
+h3,
+#contact {
+    color:#e39648;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+} 
+
+#carousel {
+    width: 80%;
+    border-radius: 10%;
+}
+
+#about {
+    background-color: #fff;
+    color:#343333
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--color-neutral-0);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact button {
+    background-color: #fff;
+    color: #e39648;
+}
+
+#contact .container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #e4a566;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+    color:#fff;
+}
+
+#blog .btn {
+    background-color: #e39648;
+    color: #fff;
+    border: #e39648;
+}
+
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
+
