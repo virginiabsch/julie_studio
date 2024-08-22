@@ -1,4 +1,4 @@
-section {
+section #about {
     height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body {
 .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-#about h2,
+#projects h2,
 h3,
 #contact {
     color:#e39648;
@@ -28,7 +28,7 @@ h3,
     background-color: #fff;
 } 
 
-#about {
+#projects {
     background-color: #fff;
     color:#343333
 }
@@ -39,12 +39,9 @@ h3,
 
 .carousel-inner {
     width: 100%;
-
 }
 
 .feedback {
-    display: flex;
-    align-items: center;
     gap: 20px;
     background-color: var(--color-neutral-0);
     padding: 12px;
