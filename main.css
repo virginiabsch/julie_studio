@@ -1,3 +1,7 @@
+section {
+    height: 100vh;
+}
+
 body {
     font-family: "Quicksand", sans-serif;
 }
@@ -7,8 +11,8 @@ body {
 }
 
 .nav .nav-link .active {
-    background-color:#ffeedd;
-    color: #e39648;
+    color:#ffeedd;
+    background-color: #e39648;
 }
 
 .nav .nav-link,
@@ -24,14 +28,18 @@ h3,
     background-color: #fff;
 } 
 
-#carousel {
-    width: 80%;
-    border-radius: 10%;
-}
-
 #about {
     background-color: #fff;
     color:#343333
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+
 }
 
 .feedback {
@@ -42,6 +50,11 @@ h3,
     padding: 12px;
     border-radius: 12px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 500px;
+    width: auto;
 }
 
 #contact button {
