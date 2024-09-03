@@ -1,5 +1,10 @@
-section #about {
-    height: 100vh;
+header {
+    height: 70px;
+}
+
+section {
+padding-top: 70px;
+margin-top: -70px;
 }
 
 body {
@@ -24,12 +29,18 @@ h3,
     color:#e39648;
 }
 
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(227, 150, 72, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-color: #fff
+}
+
 .navbar-toggler {
-    background-color: #fff;
+    border-color: #e39648;
 } 
 
 #projects {
-    background-color: #fff;
+    background-color: #ffffff;
     color:#343333
 }
 
@@ -39,26 +50,8 @@ h3,
     padding: 0;
 }
 
-.carousel-inner {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.carousel-item {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: auto;
-}
-
 .feedback {
     gap: 20px;
-    background-color: var(--color-neutral-0);
     padding: 12px;
     border-radius: 12px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
@@ -69,9 +62,19 @@ h3,
     width: auto;
 }
 
+#blog .btn {
+    background-color: #e39648;
+    color: #fff;
+    border: #e39648;
+}
+
 #contact button {
     background-color: #fff;
     color: #e39648;
+}
+
+#contact {
+    margin-top: 10px;
 }
 
 #contact .container {
@@ -86,18 +89,6 @@ h3,
     color:#fff;
 }
 
-#blog .btn {
-    background-color: #e39648;
-    color: #fff;
-    border: #e39648;
-}
-
-
-@media (max-width:767px) {
-    .carousel-item img {
-        height: 280px;
-    }
-}
 
 @media (max-width: 990px) {
     .feedback,
